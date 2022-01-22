@@ -6,5 +6,6 @@ The default files assume:
 - You are using Nginx/Apache2 (Apache isn't done yet)
 - You have PHP set up and configured in Nginx/Apache (this was written in PHP 8.1 but is likely to work with some past and future versions)
 - Your sites in `sites-enabled` are named as `domain.tld.conf`
+- Your IP configuration is named `root.conf`
 
-These settings can easily be modified to fit your system in the `index.php` file, so you don't have to strictly meet these assumptions. Where you are meant to change them, they are pointed out in comments in the code.
+These settings can easily be modified to fit your system in the files, so you don't have to strictly meet these assumptions. Where you are meant to change them, they are pointed out in comments in the code.
